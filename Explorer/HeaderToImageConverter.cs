@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using System.Windows.Data;
 using System.Windows.Media.Imaging;
 
-namespace CFlamingo
+namespace Explorer
 {
     /// <summary>
     /// Conver full path to Image based on file or drive or folder
@@ -23,7 +23,7 @@ namespace CFlamingo
             var path = (string)value;
             if (string.IsNullOrWhiteSpace(path)) return null;
 
-            var name = MainWindow.GetFileFolderName(path);
+            var name = DirectoryStucture.GetFileFolderName(path);
 
             var image = "Images/file.png";
             //if name is black we presume it as drive 
