@@ -72,10 +72,10 @@
     <Compile Include="Directory\Data\DirectoryItem.cs" />
     <Compile Include="Directory\Data\DirectoryItemType.cs" />
     <Compile Include="Directory\DirectoryStructure.cs" />
-    <Compile Include="Directory\ViewModels\Base\BaseViewModel.cs" />
-    <Compile Include="Directory\ViewModels\DirectoryItemViewModel.cs" />
-    <Compile Include="Directory\ViewModels\Base\RelayCommand.cs" />
-    <Compile Include="Directory\ViewModels\DirectoryStructureViewModel.cs" />
+    <Compile Include="ViewModels\Base\BaseViewModel.cs" />
+    <Compile Include="ViewModels\DirectoryItemViewModel.cs" />
+    <Compile Include="ViewModels\Base\RelayCommand.cs" />
+    <Compile Include="ViewModels\DirectoryStructureViewModel.cs" />
     <Compile Include="HeaderToImageConverter.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
