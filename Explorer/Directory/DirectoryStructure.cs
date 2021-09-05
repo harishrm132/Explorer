@@ -10,7 +10,7 @@ namespace Explorer
     /// <summary>
     /// Helper class to query information
     /// </summary>
-    public static class DirectoryStucture
+    public static class DirectoryStructure
     {
         /// <summary>
         /// Get Logical Drive of PC

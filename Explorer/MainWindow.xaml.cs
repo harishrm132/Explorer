@@ -24,6 +24,7 @@ namespace Explorer
         public MainWindow()
         {
             InitializeComponent();
+            this.DataContext = new DirectoryStructureViewModel();
         } 
     }
 }

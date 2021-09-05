@@ -19,6 +19,6 @@ namespace Explorer
         /// <summary>
         /// The Name of the directory Item
         /// </summary>
-        public string Name { get { return Type == DirectoryItemType.Drive ? FullPath : DirectoryStucture.GetFileFolderName(FullPath); } }
+        public string Name { get { return Type == DirectoryItemType.Drive ? FullPath : DirectoryStructure.GetFileFolderName(FullPath); } }
     }
 }
